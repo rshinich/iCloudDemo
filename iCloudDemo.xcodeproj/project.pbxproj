@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F04AB81201586710056F585 /* CloudCloudKitAddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04AB80201586710056F585 /* CloudCloudKitAddNewViewController.m */; };
 		9F0500E1200C464300B54616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0500E0200C464300B54616 /* AppDelegate.m */; };
-		9F0500E4200C464300B54616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0500E3200C464300B54616 /* ViewController.m */; };
 		9F0500E7200C464300B54616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0500E5200C464300B54616 /* Main.storyboard */; };
 		9F0500E9200C464300B54616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0500E8200C464300B54616 /* Assets.xcassets */; };
 		9F0500EC200C464300B54616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0500EA200C464300B54616 /* LaunchScreen.storyboard */; };
 		9F0500EF200C464300B54616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0500EE200C464300B54616 /* main.m */; };
 		9F0500F9200C464300B54616 /* iCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0500F8200C464300B54616 /* iCloudDemoTests.m */; };
 		9F050104200C464300B54616 /* iCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F050103200C464300B54616 /* iCloudDemoUITests.m */; };
+		9F050114200C468E00B54616 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F050113200C468E00B54616 /* CloudKit.framework */; };
+		9F050117200C4CED00B54616 /* iCloudHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F050116200C4CED00B54616 /* iCloudHandle.m */; };
+		9F16C761200D999D00072CB4 /* ZZRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F16C760200D999D00072CB4 /* ZZRDocument.m */; };
+		9FB201D720131BF8001AF298 /* CloudKeyValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB201D620131BF8001AF298 /* CloudKeyValueViewController.m */; };
+		9FB201DA20131C92001AF298 /* CloudMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB201D920131C92001AF298 /* CloudMainViewController.m */; };
+		9FB201DD201322FE001AF298 /* CloudDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB201DC201322FE001AF298 /* CloudDocumentViewController.m */; };
+		9FB201E020133303001AF298 /* CloudDocumentAddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB201DF20133303001AF298 /* CloudDocumentAddNewViewController.m */; };
+		9FB201E320133A9A001AF298 /* CloudCloudKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB201E220133A9A001AF298 /* CloudCloudKitViewController.m */; };
+		9FB201E820133B54001AF298 /* ZZRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB201E720133B54001AF298 /* ZZRModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F04AB7F201586710056F585 /* CloudCloudKitAddNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudCloudKitAddNewViewController.h; sourceTree = "<group>"; };
+		9F04AB80201586710056F585 /* CloudCloudKitAddNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudCloudKitAddNewViewController.m; sourceTree = "<group>"; };
 		9F0500DC200C464300B54616 /* iCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0500DF200C464300B54616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F0500E0200C464300B54616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F0500E2200C464300B54616 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F0500E3200C464300B54616 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F0500E6200C464300B54616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F0500E8200C464300B54616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0500EB200C464300B54616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,24 @@
 		9F0500FF200C464300B54616 /* iCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F050103200C464300B54616 /* iCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudDemoUITests.m; sourceTree = "<group>"; };
 		9F050105200C464300B54616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F050111200C468500B54616 /* iCloudDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCloudDemo.entitlements; sourceTree = "<group>"; };
+		9F050113200C468E00B54616 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		9F050115200C4CED00B54616 /* iCloudHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCloudHandle.h; sourceTree = "<group>"; };
+		9F050116200C4CED00B54616 /* iCloudHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudHandle.m; sourceTree = "<group>"; };
+		9F16C75F200D999D00072CB4 /* ZZRDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZRDocument.h; sourceTree = "<group>"; };
+		9F16C760200D999D00072CB4 /* ZZRDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRDocument.m; sourceTree = "<group>"; };
+		9FB201D520131BF8001AF298 /* CloudKeyValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudKeyValueViewController.h; sourceTree = "<group>"; };
+		9FB201D620131BF8001AF298 /* CloudKeyValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudKeyValueViewController.m; sourceTree = "<group>"; };
+		9FB201D820131C92001AF298 /* CloudMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudMainViewController.h; sourceTree = "<group>"; };
+		9FB201D920131C92001AF298 /* CloudMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudMainViewController.m; sourceTree = "<group>"; };
+		9FB201DB201322FE001AF298 /* CloudDocumentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudDocumentViewController.h; sourceTree = "<group>"; };
+		9FB201DC201322FE001AF298 /* CloudDocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudDocumentViewController.m; sourceTree = "<group>"; };
+		9FB201DE20133303001AF298 /* CloudDocumentAddNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudDocumentAddNewViewController.h; sourceTree = "<group>"; };
+		9FB201DF20133303001AF298 /* CloudDocumentAddNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudDocumentAddNewViewController.m; sourceTree = "<group>"; };
+		9FB201E120133A9A001AF298 /* CloudCloudKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudCloudKitViewController.h; sourceTree = "<group>"; };
+		9FB201E220133A9A001AF298 /* CloudCloudKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudCloudKitViewController.m; sourceTree = "<group>"; };
+		9FB201E620133B54001AF298 /* ZZRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZRModel.h; sourceTree = "<group>"; };
+		9FB201E720133B54001AF298 /* ZZRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F050114200C468E00B54616 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,7 @@
 				9F0500F7200C464300B54616 /* iCloudDemoTests */,
 				9F050102200C464300B54616 /* iCloudDemoUITests */,
 				9F0500DD200C464300B54616 /* Products */,
+				9F050112200C468E00B54616 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +130,11 @@
 		9F0500DE200C464300B54616 /* iCloudDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9F050111200C468500B54616 /* iCloudDemo.entitlements */,
+				9FB201E520133AF1001AF298 /* CloudHandle */,
+				9FB201E420133AE0001AF298 /* Controller */,
 				9F0500DF200C464300B54616 /* AppDelegate.h */,
 				9F0500E0200C464300B54616 /* AppDelegate.m */,
-				9F0500E2200C464300B54616 /* ViewController.h */,
-				9F0500E3200C464300B54616 /* ViewController.m */,
 				9F0500E5200C464300B54616 /* Main.storyboard */,
 				9F0500E8200C464300B54616 /* Assets.xcassets */,
 				9F0500EA200C464300B54616 /* LaunchScreen.storyboard */,
@@ -130,6 +160,46 @@
 				9F050105200C464300B54616 /* Info.plist */,
 			);
 			path = iCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+		9F050112200C468E00B54616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F050113200C468E00B54616 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FB201E420133AE0001AF298 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FB201D820131C92001AF298 /* CloudMainViewController.h */,
+				9FB201D920131C92001AF298 /* CloudMainViewController.m */,
+				9FB201D520131BF8001AF298 /* CloudKeyValueViewController.h */,
+				9FB201D620131BF8001AF298 /* CloudKeyValueViewController.m */,
+				9FB201DB201322FE001AF298 /* CloudDocumentViewController.h */,
+				9FB201DC201322FE001AF298 /* CloudDocumentViewController.m */,
+				9FB201DE20133303001AF298 /* CloudDocumentAddNewViewController.h */,
+				9FB201DF20133303001AF298 /* CloudDocumentAddNewViewController.m */,
+				9FB201E120133A9A001AF298 /* CloudCloudKitViewController.h */,
+				9FB201E220133A9A001AF298 /* CloudCloudKitViewController.m */,
+				9F04AB7F201586710056F585 /* CloudCloudKitAddNewViewController.h */,
+				9F04AB80201586710056F585 /* CloudCloudKitAddNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FB201E520133AF1001AF298 /* CloudHandle */ = {
+			isa = PBXGroup;
+			children = (
+				9F050115200C4CED00B54616 /* iCloudHandle.h */,
+				9F050116200C4CED00B54616 /* iCloudHandle.m */,
+				9F16C75F200D999D00072CB4 /* ZZRDocument.h */,
+				9F16C760200D999D00072CB4 /* ZZRDocument.m */,
+				9FB201E620133B54001AF298 /* ZZRModel.h */,
+				9FB201E720133B54001AF298 /* ZZRModel.m */,
+			);
+			path = CloudHandle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +270,14 @@
 					9F0500DB200C464300B54616 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					9F0500F3200C464300B54616 = {
 						CreatedOnToolsVersion = 9.2;
@@ -265,9 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0500E4200C464300B54616 /* ViewController.m in Sources */,
+				9FB201DA20131C92001AF298 /* CloudMainViewController.m in Sources */,
+				9FB201E020133303001AF298 /* CloudDocumentAddNewViewController.m in Sources */,
+				9FB201E820133B54001AF298 /* ZZRModel.m in Sources */,
+				9F050117200C4CED00B54616 /* iCloudHandle.m in Sources */,
+				9F04AB81201586710056F585 /* CloudCloudKitAddNewViewController.m in Sources */,
+				9F16C761200D999D00072CB4 /* ZZRDocument.m in Sources */,
 				9F0500EF200C464300B54616 /* main.m in Sources */,
+				9FB201DD201322FE001AF298 /* CloudDocumentViewController.m in Sources */,
+				9FB201D720131BF8001AF298 /* CloudKeyValueViewController.m in Sources */,
 				9F0500E1200C464300B54616 /* AppDelegate.m in Sources */,
+				9FB201E320133A9A001AF298 /* CloudCloudKitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +516,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCloudDemo/iCloudDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JDVB837QR7;
+				DEVELOPMENT_TEAM = 268X49LNSH;
 				INFOPLIST_FILE = iCloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzr.iCloudDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzr.ZZRiCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,11 +532,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCloudDemo/iCloudDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JDVB837QR7;
+				DEVELOPMENT_TEAM = 268X49LNSH;
 				INFOPLIST_FILE = iCloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzr.iCloudDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzr.ZZRiCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
