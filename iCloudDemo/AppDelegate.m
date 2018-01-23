@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CloudMainViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -15,8 +17,17 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] init];
+    
+    CloudMainViewController *vc = [[CloudMainViewController alloc] init];
+    
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self.window setRootViewController:nvc];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
